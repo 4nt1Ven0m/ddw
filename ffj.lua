@@ -2347,8 +2347,6 @@ function library:Init()
 	})
 	if runService:IsStudio() then
 		self.base.Parent = script.Parent.Parent
-	elseif then
-	
 		self.base.Parent = game:GetService"CoreGui"
 	end
 	self.main = self:Create("ImageButton", {
